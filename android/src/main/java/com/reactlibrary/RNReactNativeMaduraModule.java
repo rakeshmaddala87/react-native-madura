@@ -19,4 +19,9 @@ public class RNReactNativeMaduraModule extends ReactContextBaseJavaModule {
   public String getName() {
     return "RNReactNativeMadura";
   }
+
+  @ReactMethod
+  public String getModuleName() {
+    return "RNReactNativeMadura";
+  }
 }
